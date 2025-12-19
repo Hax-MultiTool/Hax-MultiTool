@@ -1,4 +1,3 @@
-# Hax MultiTool
-Hello there!<br>
-This repository represent the source code for Hax MultiTool.<br>
-The main branch is for the latest stable release! you can check out other branches for older versions (or dev work) <br>
+# Hax MultiTool v2.5.11
+Latest release for Hax v2<br>
+this version considers support for Windows 11 users and solves a few issues that were caused from the domain transfer from cmdhax.xyz to haxs.dev. It removes the Spotify Activator as it's version was dependent from old site cmdhax.xyz.
