@@ -1,0 +1,33 @@
+started debugging 
+settings checked
+looking for the password 
+no password required 
+checking updates 
+updates checked 
+killing conhost starter 
+finding other sessions 
+admin engine running.. 
+admin not needed 
+admin variable= n 
+cleaning up files 
+starting renderer
+saving variable
+variable: oui
+target ui: oui
+[MAIN] loading settings..
+[MAIN] loading white mode..
+[MAIN] loading color palette..
+[MAIN] loading animations..
+[MAIN] loading startup music..
+[MAIN] loading sound effcts..
+[MAIN] resizing.. 
+[MAIN] loading intro for old ui..
+[MAIN] --------------------------------- 
+[MAIN] Variables Settings: 
+[MAIN] --------------------------------- 
+[MAIN] White mode: "n" 
+[MAIN] Forecolor: "none" 
+[MAIN] Animations: "y" 
+[MAIN] Music: "n" 
+[MAIN] Sound effects: "n" 
+[MAIN] --------------------------------- 
