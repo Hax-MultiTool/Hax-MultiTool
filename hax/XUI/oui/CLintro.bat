@@ -30,11 +30,6 @@ IF "!whitemode!" == "n" (
         exit
    )
 )
-if exist settings/sfx.txt (
-   settings/sfx.txt
-) else (
-    goto SettingMalfunction
-)
 
 if "!sfx!"=="n" (
    set sfxsetting=False

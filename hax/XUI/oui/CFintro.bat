@@ -1,19 +1,16 @@
 @echo off
 cls
-if exist settings/wm.txt (
-   set /p whitemode=<settings/wm.txt
-) else (
-   START cmd.exe /k functions/settings createcheck
-)
+
+:: placeholder
+if "%~1"=="" (call settingsmalfunction.bat) 
+
+set "whitemode=%~1"
+set "sfx=%~2"
+
 IF "!whitemode!" == "n" (
     set background=0
 ) else (
     set background=7
-)
-if exist settings/sfx.txt (
-   set /p sfx=<settings/sfx.txt
-) else (
-    goto SettingMalfunction
 )
 
 if "!sfx!"=="n" (

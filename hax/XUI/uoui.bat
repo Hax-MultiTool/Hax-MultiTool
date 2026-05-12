@@ -88,18 +88,18 @@ if "!animations!"=="n" (
 echo [MAIN] loading intro for old ui..>>junk/logs.txt
 IF "!whitemode!" == "n" (
    IF NOT "%forecolor%"=="none" (
-        call XUI/oui/CLintro.bat
+        call XUI/oui/CLintro.bat !whitemode! !forecolor! !sfx!
         color !forecolor!
    ) else (
-        call XUI/oui/CFintro.bat
+        call XUI/oui/CFintro.bat !whitemode! !sfx!
         color B
    )
 ) else (
    IF NOT "%forecolor%"=="none" (
-        call XUI/oui/CLintro.bat
+        call XUI/oui/CLintro.bat !whitemode! !forecolor! !sfx!
         color 7!forecolor!
    ) else (
-        call XUI/settings/CFintro.bat
+        call XUI/settings/CFintro.bat !whitemode! !sfx!
         color 79
    )
 )
