@@ -117,263 +117,9 @@ echo [MAIN] Sound effects: "!sfx!" >>junk/logs.txt
 echo [MAIN] --------------------------------- >>junk/logs.txt
 
 rem ==================================
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-cls
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo  x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo   x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul 
-echo    x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo     x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h
-ping localhost -n 1 -w 50 >nul
-echo       x
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h x
-ping localhost -n 1 -w 50 >nul
-echo        a
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-cls
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo      h a x
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-timeout -t 2 -nobreak >nul
-cls
 
-IF "!whitemode!" == "n" (
-   IF NOT "%forecolor%"=="none" (
-       color !forecolor!
-   ) else (
-       color B
-   )
-) else (
-   IF NOT "%forecolor%"=="none" (
-       color 7!forecolor!
-   ) else (
-       color 79
-   )
-)
-if "!music!"=="n" (
-   set musicsetting=False
-) else (
-   set musicsetting=True
-   START /min cmd.exe /c powershell -NoProfile -WindowStyle hidden -ExecutionPolicy Bypass -Command "-c (New-Object Media.SoundPlayer "content/sound/startup2.wav").PlaySync();"
-)
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo     ____________________________
-echo    ^/                            \
-echo    ^|  h a x  m u l t i t o o l  ^|
-echo    ^\____________________________^/
-echo               -Chroma
-echo               haxs.dev 
-echo                  ^<3
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo.
-ping localhost -n 1 -w 50 >nul
-echo                 ...
-ping localhost -n 1 -w 50 >nul
-timeout -t 3 -nobreak >nul
+call XUI/cui/intro.bat !whitemode! !forecolor! !music!
+
 if "!animations!"=="n" (
    set anims=False
    @mode 118, 31
@@ -437,7 +183,6 @@ echo.
 Call Button  25 17 "Internet Tools" 44 17 "Windows Tools" 62 17 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 powershell -command "Start-Sleep -Milliseconds 500"
 Getinput /m %Press% /h 70
-
 if %errorlevel%==1 (goto InternetTools)
 if %errorlevel%==2 (goto WindowsTools)
 if %errorlevel%==3 (goto Aitools)
@@ -476,7 +221,6 @@ IF "!whitemode!" == "n" (
        color 72
    )
 )
-IF EXIST hplayit.exe ( del /F hplayit.exe)
 echo.
 echo                                  _  _            __  __      _ _   _ _____         _ 
 echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
@@ -489,18 +233,18 @@ powershell -command "Start-Sleep -Milliseconds 500"
 Getinput /m %Press% /h 70
 
 
-if %errorlevel%==1 (goto Subd)
-if %errorlevel%==2 (goto NetChecz)
-if %errorlevel%==3 (goto TELN)
-if %errorlevel%==4 (goto GoogCmd)
-if %errorlevel%==5 (goto WebTracer)
-if %errorlevel%==6 (goto THunblck)
-if %errorlevel%==7 (goto playitt)
-if %errorlevel%==8 (goto MBW)
-if %errorlevel%==9 (goto DNSR)
-if %errorlevel%==10 (goto Ipcheck)
-if %errorlevel%==11 (goto DSCMUSICBOT)
-if %errorlevel%==12 (goto Pg)
+if %errorlevel%==1 (call tools\subd.bat & goto InternetTools)
+if %errorlevel%==2 (call tools\netchecz.bat & goto InternetTools)
+if %errorlevel%==3 (call tools\teln.bat & goto InternetTools)
+if %errorlevel%==4 (call tools\googcmd.bat & goto InternetTools)
+if %errorlevel%==5 (call tools\webtracer.bat & goto InternetTools)
+if %errorlevel%==6 (call tools\thunblck.bat & goto InternetTools)
+if %errorlevel%==7 (call tools\playitt.bat & goto InternetTools)
+if %errorlevel%==8 (call tools\mbw.bat & goto InternetTools)
+if %errorlevel%==9 (call tools\dnsr.bat & goto InternetTools)
+if %errorlevel%==10 (call tools\ipcheck.bat & goto InternetTools)
+if %errorlevel%==11 (call tools\dscmusicbot.bat & goto InternetTools)
+if %errorlevel%==12 (call tools\pg.bat & goto InternetTools)
 if %errorlevel%==13 (goto internetTools)
 if %errorlevel%==14 (goto WindowsTools)
 if %errorlevel%==15 (goto Aitools)
@@ -552,18 +296,18 @@ Call Button2  42 7 "Discord Nitro Activator" 42 8 "Windows KeyFinder" 42 9 "Spot
 timeout -t 1 -nobreak >nul
 Getinput /m %Press% /h 70
 
-if !errorlevel!==1 (goto DisNitrAc)
-if !errorlevel!==2 (goto WiKeyFin)
-if !errorlevel!==3 (goto SpotyX)
-if !errorlevel!==4 (goto WindowAc)
-if !errorlevel!==5 (goto PassChan)
-if !errorlevel!==6 (goto OfficeAc)
-if !errorlevel!==7 (goto blurstuff)
-if !errorlevel!==8 (goto superadmin)
-if !errorlevel!==9 (goto FUCK)
-if !errorlevel!==10 (goto PCfixer)
-if !errorlevel!==11 (goto wrreset)
-if !errorlevel!==12 (goto GMADF)
+if !errorlevel!==1 (call tools\disnitrac.bat & goto WindowsTools)
+if !errorlevel!==2 (call tools\wikeyfin.bat & goto WindowsTools)
+if !errorlevel!==3 (call tools\spotyx.bat & goto WindowsTools)
+if !errorlevel!==4 (call tools\windowac.bat & goto WindowsTools)
+if !errorlevel!==5 (call tools\passchan.bat & goto WindowsTools)
+if !errorlevel!==6 (call tools\officeac.bat & goto WindowsTools)
+if !errorlevel!==7 (call tools\blurstuff.bat & goto WindowsTools)
+if !errorlevel!==8 (call tools\superadmin.bat & goto WindowsTools)
+if !errorlevel!==9 (call tools\fuck.bat & goto WindowsTools)
+if !errorlevel!==10 (call tools\pcfixer.bat & goto WindowsTools)
+if !errorlevel!==11 (call tools\wrreset.bat & goto WindowsTools)
+if !errorlevel!==12 (call tools\gmadf.bat & goto WindowsTools)
 if !errorlevel!==13 (goto internetTools)
 if !errorlevel!==14 (goto WindowsTools)
 if !errorlevel!==15 (goto Aitools)
@@ -614,10 +358,10 @@ Call Button2 62 7 "HaxiboMini" 63 8 "Moderator" 65 9 "Hax-GPT" 66 10 "WinTTS" 25
 powershell -command "Start-Sleep -Milliseconds 500"
 Getinput /m %Press% /h 70
 
-if %errorlevel%==1 ( goto HaxE )
-if %errorlevel%==2 ( goto Fatmod )
-if %errorlevel%==3 ( goto HaxGPT )
-if %errorlevel%==4 ( goto TTTS )
+if %errorlevel%==1 ( call tools\haxe.bat & goto Aitools )
+if %errorlevel%==2 ( call tools\fatmod.bat & goto Aitools )
+if %errorlevel%==3 ( call tools\haxgpt.bat & goto Aitools )
+if %errorlevel%==4 ( call tools\ttts.bat & goto Aitools )
 if %errorlevel%==5 ( goto internetTools )
 if %errorlevel%==6 ( goto WindowsTools )
 if %errorlevel%==7 ( goto Aitools )
@@ -668,11 +412,11 @@ Call Button2  76 7 "Mouse-Swapper" 79 8 "DiskFiller" 79 9 "Shutdowner" 81 10 "Ri
 powershell -command "Start-Sleep -Milliseconds 500"
 Getinput /m %Press% /h 70
 
-if %errorlevel%==1 (goto MSW)
-if %errorlevel%==2 (goto ZIPg)
-if %errorlevel%==3 (goto SHTDWN)
-if %errorlevel%==4 (goto rick)
-if %errorlevel%==5 (goto ANNY)
+if %errorlevel%==1 (call tools\msw.bat & goto TrollsTools)
+if %errorlevel%==2 (call tools\zipg.bat & goto TrollsTools)
+if %errorlevel%==3 (call tools\shtdwn.bat & goto TrollsTools)
+if %errorlevel%==4 (call tools\rick.bat & goto TrollsTools)
+if %errorlevel%==5 (call tools\anny.bat & goto TrollsTools)
 if %errorlevel%==6 (goto internetTools)
 if %errorlevel%==7 (goto WindowsTools)
 if %errorlevel%==8 (goto Aitools)
@@ -723,14 +467,14 @@ Call Button2 23 24 "Wifi Password Finder" 23 23 "Network Adapters" 23 23 "find i
 powershell -command "Start-Sleep -Milliseconds 500"
 Getinput /m %Press% /h 70
 
-if %errorlevel%==1 ( goto PassFind )
-if %errorlevel%==2 ( goto Netadpts )
-if %errorlevel%==3 ( goto LocIP )
-if %errorlevel%==4 ( goto IPLoc )
-if %errorlevel%==5 ( goto ActivNets )
-if %errorlevel%==6 ( goto UserInf )
-if %errorlevel%==7 ( goto Neofetch )
-if %errorlevel%==8 ( goto DiskInfo )
+if %errorlevel%==1 ( call tools\passfind.bat & goto InfoTools )
+if %errorlevel%==2 ( call tools\netadpts.bat & goto InfoTools )
+if %errorlevel%==3 ( call tools\locip.bat & goto InfoTools )
+if %errorlevel%==4 ( call tools\iploc.bat & goto InfoTools )
+if %errorlevel%==5 ( call tools\activnets.bat & goto InfoTools )
+if %errorlevel%==6 ( call tools\userinf.bat & goto InfoTools )
+if %errorlevel%==7 ( call tools\neofetch.bat & goto InfoTools )
+if %errorlevel%==8 ( call tools\diskinfo.bat & goto InfoTools )
 if %errorlevel%==9 ( goto internetTools )
 if %errorlevel%==10 ( goto WindowsTools )
 if %errorlevel%==11 ( goto Aitools )
@@ -781,16 +525,16 @@ Call Button2 39 24 "Wobbly Terminal" 39 23 "Rainbow Text" 39 22 "Dancing Man" 39
 powershell -command "Start-Sleep -Milliseconds 500"
 Getinput /m %Press% /h 70
  
-if %errorlevel%==1 ( goto wblCmd )
-if %errorlevel%==2 ( goto RGBTxt )
-if %errorlevel%==3 ( goto Danc )
-if %errorlevel%==4 ( goto Yop )
-if %errorlevel%==5 ( goto scii )
-if %errorlevel%==6 ( goto LLS )
-if %errorlevel%==7 ( goto RPC )
-if %errorlevel%==8 ( goto MTRX )
-if %errorlevel%==9 ( goto coffee )
-if %errorlevel%==10 ( goto letter )
+if %errorlevel%==1 ( call tools\wblcmd.bat & goto AestheticTools )
+if %errorlevel%==2 ( call tools\rgbtxt.bat & goto AestheticTools )
+if %errorlevel%==3 ( call tools\danc.bat & goto AestheticTools )
+if %errorlevel%==4 ( call tools\yop.bat & goto AestheticTools )
+if %errorlevel%==5 ( call tools\scii.bat & goto AestheticTools )
+if %errorlevel%==6 ( call tools\lls.bat & goto AestheticTools )
+if %errorlevel%==7 ( call tools\rpc.bat & goto AestheticTools )
+if %errorlevel%==8 ( call tools\mtrx.bat & goto AestheticTools )
+if %errorlevel%==9 ( call tools\coffee.bat & goto AestheticTools )
+if %errorlevel%==10 ( call tools\letter.bat & goto AestheticTools )
 if %errorlevel%==11 ( goto internetTools )
 if %errorlevel%==12 ( goto WindowsTools )
 if %errorlevel%==13 ( goto Aitools )
@@ -840,11 +584,11 @@ Call Button  25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13
 Call Button2 53 24 "Guess the number" 57 23 "Haxed Client" 63 22 "Tetris" 63 21 "Pacman" 65 20 "Pong" 25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 26 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Getinput /m %Press% /h 70
 
-if %errorlevel%==1 ( goto GTN )
-if %errorlevel%==2 ( goto HxC )
-if %errorlevel%==3 ( goto TER )
-if %errorlevel%==4 ( goto PAC ) 
-if %errorlevel%==5 ( goto PONG )
+if %errorlevel%==1 ( call tools\gtn.bat & goto Games )
+if %errorlevel%==2 ( call tools\hxc.bat & goto Games )
+if %errorlevel%==3 ( call tools\ter.bat & goto Games )
+if %errorlevel%==4 ( call tools\pac.bat & goto Games )
+if %errorlevel%==5 ( call tools\pong.bat & goto Games )
 if %errorlevel%==6 ( goto internetTools )
 if %errorlevel%==7 ( goto WindowsTools )
 if %errorlevel%==8 ( goto Aitools )

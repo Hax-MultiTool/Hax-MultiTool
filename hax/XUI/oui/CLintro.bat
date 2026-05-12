@@ -1,24 +1,12 @@
 @echo off
 cls
-if exist settings/wm.txt (
-   set /p whitemode=<settings/wm.txt
-) else (
-   START cmd.exe /k functions/settings createcheck
-)
-set /p ccolor=<settings/clr.txt
-set "ccolor=!ccolor: =!"
-IF "%ccolor%" == "DEFAULT" set forecolor=none
-IF "%ccolor%" == "RED" set forecolor=4
-IF "%ccolor%" == "SALMON" set forecolor=c 
-IF "%ccolor%" == "MUSTARD" set forecolor=6
-IF "%ccolor%" == "SUN" set forecolor=e
-IF "%ccolor%" == "HACKERMAN" set forecolor=a
-IF "%ccolor%" == "LEAF" set forecolor=2
-IF "%ccolor%" == "DIAMOND" set forecolor=b
-IF "%ccolor%" == "SKY" set forecolor=9
-IF "%ccolor%" == "OCEAN" set forecolor=1
-IF "%ccolor%" == "PEONY" set forecolor=d
-IF "%ccolor%" == "RETRO" set forecolor=5
+:: placeholder
+if "%~1"=="" (call settingsmalfunction.bat) 
+
+set "whitemode=%~1"
+set "forecolor=%~2"
+set "sfx=%~3"
+
 IF "!whitemode!" == "n" (
    IF NOT "%forecolor%"=="none" (
        color !forecolor!
@@ -43,7 +31,7 @@ IF "!whitemode!" == "n" (
    )
 )
 if exist settings/sfx.txt (
-   set /p sfx=<settings/sfx.txt
+   settings/sfx.txt
 ) else (
     goto SettingMalfunction
 )

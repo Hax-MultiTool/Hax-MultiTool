@@ -1,4 +1,3 @@
-started debugging 
 settings checked
 looking for the password 
 no password required 
@@ -31,3 +30,21 @@ target ui: oui
 [MAIN] Music: "n" 
 [MAIN] Sound effects: "n" 
 [MAIN] --------------------------------- 
+[MAIN] Now loading main startmenu 
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[MAIN] now loading InternetTools.. 
+[toLowerFunction] input: "INTERNETTOOL"
+[toLowerFunction] output: "INTERNETTOOL"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
