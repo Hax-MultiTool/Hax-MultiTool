@@ -141,7 +141,7 @@ echo            +          Tools Menu          +
 echo            ================================
 echo            +    [A] Internet Tools        +
 echo            +    [B] Windows Tools         +
-echo            +    [C] AI Tools              +
+echo            +    [C] File Tools              +
 ECHO            +    [D] Trolls Tools          +
 echo            +    [E] Info Tools            +
 echo            +    [F] Aesthetics Tools      +
@@ -162,7 +162,7 @@ set /p CHOICEMENU= [40;30m [40;32m
 call functions/toLowerCase CHOICEMENU CHOICEMENU
 if !CHOICEMENU!==a (goto InternetTools)
 if !CHOICEMENU!==b (goto WindowsTools)
-if !CHOICEMENU!==c (goto AiTools)
+if !CHOICEMENU!==c (goto FileTools)
 if !CHOICEMENU!==d (goto TrollTools)
 if !CHOICEMENU!==e (goto InfoTools)
 if !CHOICEMENU!==f (goto AestheticTools)
@@ -293,7 +293,7 @@ if !WINDOWSTOOL!==l (call tools\gmadf.bat & goto WindowsTools)
 if !WINDOWSTOOL!==m (goto startmenu)
 goto WindowsTools
 rem --------------------------------------------------------------------------------------------------------------------------------
-:AiTools
+:FileTools
 cls
 IF "!whitemode!" == "n" (
    IF NOT "%forecolor%"=="none" (
@@ -312,7 +312,7 @@ echo            ________________________________
 echo           /_______________  _______________\
 echo                           \/
 echo            ================================
-echo            +           AI Tools           +
+echo            +           File Tools           +
 echo            ================================
 echo            +      [A] HaxiboMini          +
 echo            +      [B] Moderator           +
@@ -329,12 +329,12 @@ ping localhost -n 2 >nul
 set AITOOL=z
 set /p AITOOL= [40;30m [40;32m                         
 call functions/toLowerCase AITOOL AITOOL
-if !AITOOL!==a (call tools\haxe.bat & goto AiTools)
-if !AITOOL!==b (call tools\fatmod.bat & goto AiTools)
-if !AITOOL!==c (call tools\haxgpt.bat & goto AiTools)
-if !AITOOL!==d (call tools\ttts.bat & goto AiTools)
+if !AITOOL!==a (call tools\haxe.bat & goto FileTools)
+if !AITOOL!==b (call tools\fatmod.bat & goto FileTools)
+if !AITOOL!==c (call tools\haxgpt.bat & goto FileTools)
+if !AITOOL!==d (call tools\ttts.bat & goto FileTools)
 if !AITOOL!==e (goto startmenu)
-goto AiTools
+goto FileTools
 rem --------------------------------------------------------------------------------------------------------------------------------
 :TrollTools
 cls
@@ -555,18 +555,18 @@ echo                           \/
 echo            ================================
 echo            +       Registered Sites       +
 echo            ================================
-echo            +        [A] VirusTotal        +
-echo            +        [B] Kms Servers       +
-echo            +        [C] IpInfo            +
-echo            +        [D] Epieos            +
-echo            +        [E] Yopmail           +
-echo            +        [F] Mediafire         +
-echo            +        [G] Download Win10    +
-echo            +        [H] Download Office   +
-echo            +        [I] Fakeupdate        +
-echo            +        [J] Jammin            +
-echo            +        [K] Doxbin            +
-echo            +        [L] Back              +
+echo            +       [A] VirusTotal         +
+echo            +       [B] Kms Servers        +
+echo            +       [C] IpInfo             +
+echo            +       [D] Epieos             +
+echo            +       [E] Yopmail            +
+echo            +       [F] Mediafire          +
+echo            +       [G] Download Win10     +
+echo            +       [H] Download Office    +
+echo            +       [I] Fakeupdate         +
+echo            +       [J] Jammin             +
+echo            +       [K] Doxbin             +
+echo            +       [L] Back               +
 echo            ================================
 echo            _______________/\_______________
 echo           \________________________________/
@@ -579,12 +579,12 @@ set CHWEBSITE=z
 set /p CHWEBSITE= [40;30m [40;32m                         
 call functions/toLowerCase CHWEBSITE CHWEBSITE
 if !CHWEBSITE!==a (explorer "https://www.virustotal.com/gui/home/upload" & goto Websites)
-if !CHWEBSITE!==b (explorer "https://kms.msguides.com/" & goto Websites)
+if !CHWEBSITE!==b (explorer "https://status.msguides.com/" & goto Websites)
 if !CHWEBSITE!==c (explorer "https://ipinfo.io/" & goto Websites)
 if !CHWEBSITE!==d (explorer "https://epieos.com/" & goto Websites)
 if !CHWEBSITE!==e (explorer "https://yopmail.net/" & goto Websites)
 if !CHWEBSITE!==f (explorer "https://app.mediafire.com/myfiles" & goto Websites)
-if !CHWEBSITE!==g (explorer "https://go.microsoft.com/fwlink/?LinkId=691209" & goto Websites)
+if !CHWEBSITE!==g (explorer "https://massgrave.dev/genuine-installation-media" & goto Websites)
 if !CHWEBSITE!==h (explorer "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProPlus2021Retail.img" & goto Websites)
 if !CHWEBSITE!==i (explorer "https://fakeupdate.net" & goto Websites)
 if !CHWEBSITE!==j (explorer "https://we-are-jammin.xyz/" & goto Websites)

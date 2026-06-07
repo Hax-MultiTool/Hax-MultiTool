@@ -28,6 +28,128 @@ target ui:  cui
 [MAIN] Forecolor: "none" 
 [MAIN] Animations: "y" 
 [MAIN] Music: "n" 
-[MAIN] Sound effects: "n" 
+[MAIN] Sound effects: "y" 
 [MAIN] --------------------------------- 
 [MAIN] loading startmenu
+[MAIN] loading internet tools
+[MAIN] loading windows tools
+[MAIN] loading file tools
+[MAIN] loading trolls tools
+[MAIN] loading websites
+[MAIN] loading games
+[MAIN] loading aesthetic tools
+[MAIN] loading info tools
+[MAIN] went to settings
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] Settings Menu
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] went to security settings
+[CLICKUI SETTINGS] is CommandLine function
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] Its not CommandLine
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] went to visual settings
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] went to security settings
+[CLICKUI SETTINGS] Settings Menu
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] Settings Menu
+[CLICKUI SETTINGS] end of function
+[MAIN] loading startmenu
+[MAIN] went to settings
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] Settings Menu
+[CLICKUI SETTINGS] loading settings from settings script..
+[CLICKUI SETTINGS] loading white mode..
+[CLICKUI SETTINGS] loading color palette..
+[CLICKUI SETTINGS] loading animations..
+[CLICKUI SETTINGS] loading startup music..
+[CLICKUI SETTINGS] loading sound effcts..
+[CLICKUI SETTINGS] loading UI Status..
+[CLICKUI SETTINGS] loading debug settings..
+[CLICKUI SETTINGS] loading admin settings..
+[CLICKUI SETTINGS] loading password settings..
+[CLICKUI SETTINGS] end of function
+[CLICKUI SETTINGS] went to security settings

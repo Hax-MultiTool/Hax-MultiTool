@@ -43,13 +43,13 @@ echo                ^|_^|  ^|_^|\__^,_^|_^|\__^|_^|  ^|_^|\___^/ \___^/^|_^|
 echo.
 echo                                settings
 Call Button 22 18 "Security" 22 21 "Visuals " 36 18 "Audio   " 36 21 "Back    " 53 0 "Save Settings" 1 0 "Hax v3" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( goto securitySETTS )
 if %errorlevel%==2 ( call :isCLI )
 if %errorlevel%==3 ( goto audioSETTS )
-if %errorlevel%==4 ( goto eof )
+if %errorlevel%==4 ( echo gotoeof && echo %errorlevel% && pause && goto eof )
 if %errorlevel%==5 ( 
    echo [CLICKUI SETTINGS] Reloading Settings>>junk/logs.txt
    START cmd.exe /k @echo off ^&^& haxstarter.bat && exit )
@@ -94,7 +94,7 @@ echo                                 Animations:
 echo                                 Gui mode:
 Call Button 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" # Press
 Call Button2 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" 48 20 "!whitesetting!" 48 22 "!guimode!" 48 21 "%animsetting%" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( call :isCLI )
@@ -159,7 +159,7 @@ echo                                 Colors:
 if !index! geq 11 set /a index = -1
 Call Button 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" # Press
 Call Button2 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" 48 20 "!whitesetting!" 48 21 "%animsetting%" 48 22 "%guimode%" 48 23 "%ccolor%" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( call :isCLI )
@@ -220,7 +220,7 @@ echo                                 Enable Password:
 echo                                 Run as Admin:
 Call Button 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" # Press
 Call Button2 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" 48 17 "%debsetting%" 48 18 "%pwsetting%" 48 19 "%adminsetting%" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( call :isCLI )
@@ -348,7 +348,7 @@ echo                                 Effects:
 echo                                 Music:
 Call Button 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" # Press
 Call Button2 14 20 "Visuals " 14 17 "Security" 14 26 "Back    " 14 23 "Audio   " 53 0 "Save Settings" 1 0 "Hax v3" 48 23 "%sfxsetting%" 48 24 "%musicsetting%" # Press
-timeout -t 1 -nobreak >nul
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( call :isCLI )

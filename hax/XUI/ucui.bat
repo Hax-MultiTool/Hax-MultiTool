@@ -180,12 +180,12 @@ echo                                       ^| ^|  ^| ^| ^|_^| ^| ^| ^|_^| ^|  ^|
 echo                                       ^|_^|  ^|_^|\__^,_^|_^|\__^|_^|  ^|_^|\___^/ \___^/^|_^|
 echo.
 echo.
-Call Button  25 17 "Internet Tools" 44 17 "Windows Tools" 62 17 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 17 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 if %errorlevel%==1 (goto InternetTools)
 if %errorlevel%==2 (goto WindowsTools)
-if %errorlevel%==3 (goto Aitools)
+if %errorlevel%==3 (goto FileTools)
 if %errorlevel%==4 (goto TrollsTools)
 if %errorlevel%==5 (goto InfoTools)
 if %errorlevel%==6 (goto AestheticTools)
@@ -227,9 +227,9 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 5 "Internet Tools" 44 17 "Windows Tools" 62 17 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2 23 7 "Webdirectory finder" 23 8 "Connection Checker" 23 9 "Telnet Telehack" 23 10 "Google Terminal" 23 11 "Website Tracker" 23 12 "The Unblocker" 23 13 "Playit Agent" 23 14 "Meme Browser" 23 15 "DNS Refresh" 23 16 "Ip Checker" 23 17 "Music Bot" 23 18 "Pinger" 25 5 "Internet Tools" 44 17 "Windows Tools" 62 17 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 5 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2 22 7 "Webdirectory finder" 22 8 "Connection Checker" 22 9 "Telnet Telehack" 22 10 "Google Terminal" 22 11 "Website Tracker" 22 12 "The Unblocker" 22 13 "Playit Agent" 22 14 "Meme Browser" 22 15 "DNS Refresh" 22 16 "Ip Checker" 22 17 "Music Bot" 22 18 "Pinger" 24 5 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
 
@@ -247,7 +247,7 @@ if %errorlevel%==11 (call tools\dscmusicbot.bat & goto InternetTools)
 if %errorlevel%==12 (call tools\pg.bat & goto InternetTools)
 if %errorlevel%==13 (goto internetTools)
 if %errorlevel%==14 (goto WindowsTools)
-if %errorlevel%==15 (goto Aitools)
+if %errorlevel%==15 (goto FileTools)
 if %errorlevel%==16 (goto TrollsTools)
 if %errorlevel%==17 (goto InfoTools)
 if %errorlevel%==18 (goto AestheticTools)
@@ -291,26 +291,26 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 17 "Internet Tools" 44 5 "Windows Tools" 62 17 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2  42 7 "Discord Nitro Activator" 42 8 "Windows KeyFinder" 42 9 "Spotify Activator" 42 10 "Windows Activator" 42 11 "Password Changer" 42 12 "Office Activator" 42 13 "Blur Videos" 42 14 "SuperAdmin" 42 15 "Fork-Bomb" 42 16 "PC Fixer" 42 17 "Wureset" 42 18 "GMADF" 25 17 "Internet Tools" 44 5 "Windows Tools" 62 17 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
-timeout -t 1 -nobreak >nul
+Call Button  24 17 "Internet Tools" 43 5 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2  41 7 "Discord Nitro Activator" 41 8 "Windows KeyFinder" 41 9 "Windows Activator" 41 10 "Password Changer" 41 11 "Office Activator" 41 12 "Blur Videos" 41 13 "SuperAdmin" 41 14 "Monochroma" 41 15 "Fork-Bomb" 41 16 "PC Fixer" 41 17 "Wureset" 41 18 "GMADF" 24 17 "Internet Tools" 43 5 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
+(call )
 Getinput /m %Press% /h 70
 
 if !errorlevel!==1 (call tools\disnitrac.bat & goto WindowsTools)
 if !errorlevel!==2 (call tools\wikeyfin.bat & goto WindowsTools)
-if !errorlevel!==3 (call tools\spotyx.bat & goto WindowsTools)
-if !errorlevel!==4 (call tools\windowac.bat & goto WindowsTools)
-if !errorlevel!==5 (call tools\passchan.bat & goto WindowsTools)
-if !errorlevel!==6 (call tools\officeac.bat & goto WindowsTools)
-if !errorlevel!==7 (call tools\blurstuff.bat & goto WindowsTools)
-if !errorlevel!==8 (call tools\superadmin.bat & goto WindowsTools)
+if !errorlevel!==3 (call tools\windowac.bat & goto WindowsTools)
+if !errorlevel!==4 (call tools\passchan.bat & goto WindowsTools)
+if !errorlevel!==5 (call tools\officeac.bat & goto WindowsTools)
+if !errorlevel!==6 (call tools\blurstuff.bat & goto WindowsTools)
+if !errorlevel!==7 (call tools\superadmin.bat & goto WindowsTools)
+if !errorlevel!==8 (call tools\mnchroma.bat & goto WindowsTools)
 if !errorlevel!==9 (call tools\fuck.bat & goto WindowsTools)
 if !errorlevel!==10 (call tools\pcfixer.bat & goto WindowsTools)
 if !errorlevel!==11 (call tools\wrreset.bat & goto WindowsTools)
 if !errorlevel!==12 (call tools\gmadf.bat & goto WindowsTools)
 if !errorlevel!==13 (goto internetTools)
 if !errorlevel!==14 (goto WindowsTools)
-if !errorlevel!==15 (goto Aitools)
+if !errorlevel!==15 (goto FileTools)
 if !errorlevel!==16 (goto TrollsTools)
 if !errorlevel!==17 (goto InfoTools)
 if !errorlevel!==18 (goto AestheticTools)
@@ -323,8 +323,8 @@ if !errorlevel!==24 (goto fullscreen)
 
 goto WindowsTools
 rem ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:Aitools
-echo [MAIN] loading ai tools>>junk/logs.txt
+:FileTools
+echo [MAIN] loading file tools>>junk/logs.txt
 if "!sfx!"=="n" (
    set sfxsetting=False
 ) else (
@@ -353,29 +353,29 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 17 "Internet Tools" 44 17 "Windows Tools" 62 5 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2 62 7 "HaxiboMini" 63 8 "Moderator" 65 9 "Hax-GPT" 66 10 "WinTTS" 25 17 "Internet Tools" 44 17 "Windows Tools" 62 5 "AI Tools" 75 17 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 17 "Internet Tools" 43 17 "Windows Tools" 61 5 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2 52 7 "Remove Img Background" 57 8 "De-corrupt Image" 59 9 "De-corrupt PDF" 59 10 "Compress Image" 60 11 "Upscale Image" 61 12 "Compress PDF" 63 13 "Unlock PDF" 64 14 "Merge PDF" 24 17 "Internet Tools" 43 17 "Windows Tools" 61 5 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
-if %errorlevel%==1 ( call tools\haxe.bat & goto Aitools )
-if %errorlevel%==2 ( call tools\fatmod.bat & goto Aitools )
-if %errorlevel%==3 ( call tools\haxgpt.bat & goto Aitools )
-if %errorlevel%==4 ( call tools\ttts.bat & goto Aitools )
-if %errorlevel%==5 ( goto internetTools )
-if %errorlevel%==6 ( goto WindowsTools )
-if %errorlevel%==7 ( goto Aitools )
-if %errorlevel%==8 ( goto TrollsTools )
-if %errorlevel%==9 ( goto InfoTools )
-if %errorlevel%==10 ( goto AestheticTools )
-if %errorlevel%==11 ( goto GAMES )
-if %errorlevel%==12 ( goto Websites )
-if %errorlevel%==13 ( goto SETTS )
-if %errorlevel%==14 ( goto startmenu )
-if %errorlevel%==15 ( goto help )
-if %errorlevel%==16 ( goto fullscreen )
+if %errorlevel%==1 ( call tools\haxe.bat & goto FileTools )
+if %errorlevel%==2 ( call tools\fatmod.bat & goto FileTools )
+if %errorlevel%==3 ( call tools\haxgpt.bat & goto FileTools )
+if %errorlevel%==4 ( call tools\ttts.bat & goto FileTools )
+if %errorlevel%==9 ( goto internetTools )
+if %errorlevel%==10 ( goto WindowsTools )
+if %errorlevel%==11 ( goto FileTools )
+if %errorlevel%==12 ( goto TrollsTools )
+if %errorlevel%==13 ( goto InfoTools )
+if %errorlevel%==14 ( goto AestheticTools )
+if %errorlevel%==15 ( goto GAMES )
+if %errorlevel%==16 ( goto Websites )
+if %errorlevel%==17 ( goto SETTS )
+if %errorlevel%==18 ( goto startmenu )
+if %errorlevel%==19 ( goto help )
+if %errorlevel%==20 ( goto fullscreen )
 
-goto Aitools
+goto FileTools
 rem ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :TrollsTools
 echo [MAIN] loading trolls tools>>junk/logs.txt
@@ -407,9 +407,9 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 17 "Internet Tools" 44 17 "Windows Tools" 62 17 "AI Tools" 75 5 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2  76 7 "Mouse-Swapper" 79 8 "DiskFiller" 79 9 "Shutdowner" 81 10 "Rickroll" 82 11 "Annoyer" 25 17 "Internet Tools" 44 17 "Windows Tools" 62 17 "AI Tools" 75 5 "Trolls Tools" 25 20 "Info Tools" 41 20 "Aesthetic Tools" 62 20 "Games" 73 20 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 17 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 5 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2  76 7 "Mouse-Swapper" 79 8 "DiskFiller" 79 9 "Shutdowner" 81 10 "Rickroll" 82 11 "Annoyer" 24 17 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 5 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 (call tools\msw.bat & goto TrollsTools)
@@ -419,7 +419,7 @@ if %errorlevel%==4 (call tools\rick.bat & goto TrollsTools)
 if %errorlevel%==5 (call tools\anny.bat & goto TrollsTools)
 if %errorlevel%==6 (goto internetTools)
 if %errorlevel%==7 (goto WindowsTools)
-if %errorlevel%==8 (goto Aitools)
+if %errorlevel%==8 (goto FileTools)
 if %errorlevel%==9 (goto TrollsTools)
 if %errorlevel%==10 (goto InfoTools)
 if %errorlevel%==11 (goto AestheticTools)
@@ -462,9 +462,9 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button 25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 26 "Info Tools" 41 16 "Aesthetic Tools" 62 16 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2 23 24 "Wifi Password Finder" 23 23 "Network Adapters" 23 23 "find ipv4/ipv6" 23 22 "What's my IP" 23 21 "Connections" 23 20 "Userinfo" 23 19 "Neofetch" 23 18 "Diskinfo"  25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 26 "Info Tools" 41 16 "Aesthetic Tools" 62 16 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 26 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2 23 24 "Wifi Password Finder" 23 23 "Network Adapters" 23 23 "find ipv4/ipv6" 23 22 "What's my IP" 23 21 "Connections" 23 20 "Userinfo" 23 19 "Neofetch" 23 18 "Diskinfo"  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 26 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( call tools\passfind.bat & goto InfoTools )
@@ -477,7 +477,7 @@ if %errorlevel%==7 ( call tools\neofetch.bat & goto InfoTools )
 if %errorlevel%==8 ( call tools\diskinfo.bat & goto InfoTools )
 if %errorlevel%==9 ( goto internetTools )
 if %errorlevel%==10 ( goto WindowsTools )
-if %errorlevel%==11 ( goto Aitools )
+if %errorlevel%==11 ( goto FileTools )
 if %errorlevel%==12 ( goto TrollsTools )
 if %errorlevel%==13 ( goto InfoTools )
 if %errorlevel%==14 ( goto AestheticTools )
@@ -520,9 +520,9 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 26 "Aesthetic Tools" 62 16 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2 39 24 "Wobbly Terminal" 39 23 "Rainbow Text" 39 22 "Dancing Man" 39 21 "Parrot.live" 39 20 "ascii.live" 39 19 "Luca's LS" 39 18 "Retro PC" 39 17 "Matrix" 39 17 "Coffee" 39 16 "E." 25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 26 "Aesthetic Tools" 62 16 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 26 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2 39 24 "Wobbly Terminal" 39 23 "Rainbow Text" 39 22 "Dancing Man" 39 21 "Parrot.live" 39 20 "ascii.live" 39 19 "Luca's LS" 39 18 "Retro PC" 39 17 "Matrix" 39 17 "Coffee" 39 16 "E." 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 26 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
  
 if %errorlevel%==1 ( call tools\wblcmd.bat & goto AestheticTools )
@@ -537,7 +537,7 @@ if %errorlevel%==9 ( call tools\coffee.bat & goto AestheticTools )
 if %errorlevel%==10 ( call tools\letter.bat & goto AestheticTools )
 if %errorlevel%==11 ( goto internetTools )
 if %errorlevel%==12 ( goto WindowsTools )
-if %errorlevel%==13 ( goto Aitools )
+if %errorlevel%==13 ( goto FileTools )
 if %errorlevel%==14 ( goto TrollsTools )
 if %errorlevel%==15 ( goto InfoTools )
 if %errorlevel%==16 ( goto AestheticTools )
@@ -580,27 +580,27 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 26 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2 53 24 "Guess the number" 57 23 "Haxed Client" 63 22 "Tetris" 63 21 "Pacman" 65 20 "Pong" 25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 26 "Games" 73 16 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 26 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2 53 24 "Guess the number" 63 23 "Tetris" 63 22 "Pacman" 65 21 "Pong" 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 26 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( call tools\gtn.bat & goto Games )
-if %errorlevel%==2 ( call tools\hxc.bat & goto Games )
-if %errorlevel%==3 ( call tools\ter.bat & goto Games )
-if %errorlevel%==4 ( call tools\pac.bat & goto Games )
-if %errorlevel%==5 ( call tools\pong.bat & goto Games )
-if %errorlevel%==6 ( goto internetTools )
-if %errorlevel%==7 ( goto WindowsTools )
-if %errorlevel%==8 ( goto Aitools )
-if %errorlevel%==9 ( goto TrollsTools )
-if %errorlevel%==10 ( goto InfoTools )
-if %errorlevel%==11 ( goto AestheticTools )
-if %errorlevel%==12 ( goto GAMES )
-if %errorlevel%==13 ( goto Websites )
-if %errorlevel%==14 ( goto SETTS )
-if %errorlevel%==15 ( goto startmenu )
-if %errorlevel%==16 ( goto help )
-if %errorlevel%==17 (goto fullscreen)
+if %errorlevel%==2 ( call tools\ter.bat & goto Games )
+if %errorlevel%==3 ( call tools\pac.bat & goto Games )
+if %errorlevel%==4 ( call tools\pong.bat & goto Games )
+if %errorlevel%==5 ( goto internetTools )
+if %errorlevel%==6 ( goto WindowsTools )
+if %errorlevel%==7 ( goto FileTools )
+if %errorlevel%==8 ( goto TrollsTools )
+if %errorlevel%==9 ( goto InfoTools )
+if %errorlevel%==10 ( goto AestheticTools )
+if %errorlevel%==11 ( goto GAMES )
+if %errorlevel%==12 ( goto Websites )
+if %errorlevel%==13 ( goto SETTS )
+if %errorlevel%==14 ( goto startmenu )
+if %errorlevel%==15 ( goto help )
+if %errorlevel%==16 (goto fullscreen)
 goto Games
 rem ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :Websites
@@ -633,24 +633,24 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 16 "Games" 73 26 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2 73 24 "Download Windows" 74 23 "Download Office" 78 22 "Osint Tools" 78 21 "KMS Servers" 79 20 "Fakeupdate" 79 19 "VirusTotal" 80 18 "MediaFire" 82 17 "YopMail" 83 16 "Jammin" 83 15 "more.." 25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 16 "Games" 73 26 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2 73 24 "Download Windows" 74 23 "Download Office" 78 22 "Osint Tools" 78 21 "KMS Servers" 79 20 "Fakeupdate" 79 19 "VirusTotal" 80 18 "MediaFire" 81 17 "imgur.gg" 82 16 "Yopmail" 83 15 "more.." 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
-if %errorlevel%==1 ( explorer "https://go.microsoft.com/fwlink/?LinkId=691209" )
+if %errorlevel%==1 ( explorer "https://massgrave.dev/genuine-installation-media" )
 if %errorlevel%==2 ( explorer "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-us/ProPlus2021Retail.img" )
-if %errorlevel%==3 ( explorer "https://www.mattiavicenzi.it/best-osint-tools-mattia-vicenzi/" )
-if %errorlevel%==4 ( explorer "https://kms.msguides.com/")
+if %errorlevel%==3 ( explorer "https://github.com/Hax-MultiTool/OSINT-Tools#categories" )
+if %errorlevel%==4 ( explorer "https://status.msguides.com/")
 if %errorlevel%==5 ( explorer "https://fakeupdate.net")
 if %errorlevel%==6 ( explorer "https://www.virustotal.com/gui/home/upload" )
 if %errorlevel%==7 ( explorer "https://app.mediafire.com/myfiles" )
-if %errorlevel%==8 ( explorer "https://yopmail.net/")
-if %errorlevel%==9 ( explorer "https://we-are-jammin.xyz/")
+if %errorlevel%==8 ( explorer "https://imgur.gg")
+if %errorlevel%==9 ( explorer "https://yopmail.net/")
 if %errorlevel%==10 ( goto Websites2 )
 if %errorlevel%==11 (goto internetTools)
 if %errorlevel%==12 (goto WindowsTools)
-if %errorlevel%==13 (goto Aitools)
+if %errorlevel%==13 (goto FileTools)
 if %errorlevel%==14 (goto TrollsTools)
 if %errorlevel%==15 (goto InfoTools)
 if %errorlevel%==16 (goto AestheticTools)
@@ -692,27 +692,30 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button  25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 16 "Games" 73 26 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2  83 24 "back.." 83 23 "Epieos" 83 22 "IpInfo" 83 21 "Doxbin" 25 13 "Internet Tools" 44 13 "Windows Tools" 62 13 "AI Tools" 75 13 "Trolls Tools" 25 16 "Info Tools" 41 16 "Aesthetic Tools" 62 16 "Games" 73 26 "Saved Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2  83 24 "back.." 83 23 "Jammin" 83 22 "Epieos" 83 21 "Ipinfo" 83 20 "Doxbin" 83 19 "gofile" 83 18 "rootz" 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel%==1 ( goto Websites )
-if %errorlevel%==2 ( explorer "https://epieos.com/")
-if %errorlevel%==3 ( explorer "https://ipinfo.io/")
-if %errorlevel%==4 ( explorer "https://doxbin.com")
-if %errorlevel%==5 (goto internetTools)
-if %errorlevel%==6 (goto WindowsTools)
-if %errorlevel%==7 (goto Aitools)
-if %errorlevel%==8 (goto TrollsTools)
-if %errorlevel%==9 (goto InfoTools)
-if %errorlevel%==10 (goto AestheticTools)
-if %errorlevel%==11 (goto GAMES)
-if %errorlevel%==12 (goto Websites)
-if %errorlevel%==13 (goto SETTS)
-if %errorlevel%==14 (goto startmenu)
-if %errorlevel%==15 ( goto help )
-if %errorlevel%==16 (goto fullscreen)
+if %errorlevel%==2 ( explorer "https://we-are-jammin.xyz")
+if %errorlevel%==3 ( explorer "https://epieos.com/")
+if %errorlevel%==4 ( explorer "https://ipinfo.io/")
+if %errorlevel%==5 ( explorer "https://doxbin.com")
+if %errorlevel%==6 ( explorer "https://gofile.io/" )
+if %errorlevel%==7 ( explorer "https://rootz.so/" )
+if %errorlevel%==8 (goto internetTools)
+if %errorlevel%==9 (goto WindowsTools)
+if %errorlevel%==10 (goto FileTools)
+if %errorlevel%==11 (goto TrollsTools)
+if %errorlevel%==12 (goto InfoTools)
+if %errorlevel%==13 (goto AestheticTools)
+if %errorlevel%==14 (goto GAMES)
+if %errorlevel%==15 (goto Websites)
+if %errorlevel%==16 (goto SETTS)
+if %errorlevel%==17 (goto startmenu)
+if %errorlevel%==18 ( goto help )
+if %errorlevel%==19 (goto fullscreen)
 goto Websites2
 rem ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :fullscreen
@@ -744,9 +747,9 @@ echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|
 echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
 echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
 echo.
-Call Button 10 3 "Internet Tools" 34 4 "Windows Tools" 71 4 "AI Tools" 89 3 "Trolls Tools" 10 27 "Info Tools" 42 27 "Aesthetic Tools" 73 27 "Games" 88 27 "Saved Websites" 1 0 "Hax v3" 112 27 "+"  # Press
-Call Button2 10 3 "Internet Tools" 8 5 "Webdirectory Finder" 8 6 "Connection Checker" 8 7 "Telnet Telehack" 8 8 "Google Terminal" 8 9 "Website Tracker" 8 10 "The Unblocker" 8 11 "Playit Agent" 8 12 "Meme Browser" 8 13 "DNS Refresh" 8 14 "IP Checker" 8 15 "Music Bot" 8 16 "Pinger" 34 4 "Windows Tools" 32 6 "Discord Nitro Activator" 32 7 "Windows KeyFinder" 32 8 "Spotify Activator" 32 9 "Windows Activator" 32 10 "Password Changer" 32 11 "Office Activator" 32 12 "Blur Videos" 32 13 "SuperAdmin" 32 14 "Fork-Bomb" 32 15 "PC Fixer" 32 16 "Wureset" 32 17 "GMADF" 71 4 "AI Tools" 71 6 "HaxiboMini" 72 7 "Moderator" 74 8 "Hax-GPT" 78 9 "TTS" 89 3 "Trolls Tools" 90 5 "Mouse-Swapper" 93 6 "DiskFiller" 93 7 "Shutdowner" 95 8 "Rickroll" 96 9 "Annoyer" 10 27 "Info Tools" 8 25 "Wifi Password Finder" 8 24 "Network Adapters" 8 23 "Find IPv4/IPv6" 8 22 "What's my IP" 8 21 "Connections" 8 20 "Userinfo" 8 19 "Neofetch" 8 18 "Diskinfo" 42 27 "Aesthetic Tools" 40 25 "Wobbly Terminal" 40 24 "Rainbow Text" 40 23 "Dancing Man" 40 22 "Parrot.live" 40 21 "ascii.live" 40 20 "Luca's LS" 40 19 "Retro PC" 40 18 "Matrix" 40 17 "Coffee" 40 16 "E." 73 27 "Games" 64 25 "Guess the Number" 68 24 "Haxed Client" 74 23 "Tetris" 74 22 "Pacman" 76 21 "Pong" 88 27 "Saved Websites" 88 25 "Download Windows" 89 24 "Download Office" 93 23 "Osint Tools" 93 22 "KMS Servers" 94 21 "Fakeupdate" 94 20 "VirusTotal" 95 19 "MediaFire" 97 18 "YopMail" 98 17 "Jammin" 98 16 "Epieos" 98 15 "IpInfo" 98 14 "Doxbin" 112 27 "-" # Press   
-powershell -command "Start-Sleep -Milliseconds 500"
+Call Button 10 3 "Internet Tools" 34 4 "Windows Tools" 71 4 "File Tools" 89 3 "Trolls Tools" 10 27 "Info Tools" 42 27 "Aesthetic Tools" 73 27 "Games" 88 27 "Featured Websites" 1 0 "Hax v3" 112 27 "+"  # Press
+Call Button2 10 3 "Internet Tools" 8 5 "Webdirectory Finder" 8 6 "Connection Checker" 8 7 "Telnet Telehack" 8 8 "Google Terminal" 8 9 "Website Tracker" 8 10 "The Unblocker" 8 11 "Playit Agent" 8 12 "Meme Browser" 8 13 "DNS Refresh" 8 14 "IP Checker" 8 15 "Music Bot" 8 16 "Pinger" 34 4 "Windows Tools" 32 6 "Discord Nitro Activator" 32 7 "Windows KeyFinder" 32 8 "Spotify Activator" 32 9 "Windows Activator" 32 10 "Password Changer" 32 11 "Office Activator" 32 12 "Blur Videos" 32 13 "SuperAdmin" 32 14 "Fork-Bomb" 32 15 "PC Fixer" 32 16 "Wureset" 32 17 "GMADF" 71 4 "File Tools" 71 6 "HaxiboMini" 72 7 "Moderator" 74 8 "Hax-GPT" 78 9 "TTS" 89 3 "Trolls Tools" 90 5 "Mouse-Swapper" 93 6 "DiskFiller" 93 7 "Shutdowner" 95 8 "Rickroll" 96 9 "Annoyer" 10 27 "Info Tools" 8 25 "Wifi Password Finder" 8 24 "Network Adapters" 8 23 "Find IPv4/IPv6" 8 22 "What's my IP" 8 21 "Connections" 8 20 "Userinfo" 8 19 "Neofetch" 8 18 "Diskinfo" 42 27 "Aesthetic Tools" 40 25 "Wobbly Terminal" 40 24 "Rainbow Text" 40 23 "Dancing Man" 40 22 "Parrot.live" 40 21 "ascii.live" 40 20 "Luca's LS" 40 19 "Retro PC" 40 18 "Matrix" 40 17 "Coffee" 40 16 "E." 73 27 "Games" 64 25 "Guess the Number" 68 24 "Haxed Client" 74 23 "Tetris" 74 22 "Pacman" 76 21 "Pong" 88 27 "Featured Websites" 88 25 "Download Windows" 89 24 "Download Office" 93 23 "Osint Tools" 93 22 "KMS Servers" 94 21 "Fakeupdate" 94 20 "VirusTotal" 95 19 "MediaFire" 97 18 "YopMail" 98 17 "Jammin" 98 16 "Epieos" 98 15 "IpInfo" 98 14 "Doxbin" 112 27 "-" # Press   
+(call )
 Getinput /m %Press% /h 70
 
 if %errorlevel% geq 1 if %errorlevel% leq 13 (
@@ -756,7 +759,7 @@ if %errorlevel% geq 14 if %errorlevel% leq 26 (
     goto WindowsTools
 )
 if %errorlevel% geq 27 if %errorlevel% leq 31 (
-    goto AiTools
+    goto FileTools
 )
 if %errorlevel% geq 32 if %errorlevel% leq 37 (
     goto TrollsTools
