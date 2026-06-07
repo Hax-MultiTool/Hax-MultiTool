@@ -3,3 +3,10 @@ Probably still needs to fix OldUI and OldUI's content
 Fix Oldui animations
 
 Work on CLIs
+
+remove debug thing in settings
+fix click ui positions
+uhh the cli help i thought about it make it an interactive-seperate-window kind of thing
+
+add audio selection
+add auto update in settings
