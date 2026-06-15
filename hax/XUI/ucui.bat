@@ -164,22 +164,7 @@ IF "!whitemode!" == "n" (
        color 79
    )
 )
-echo.
-echo.
-echo                                                   _    _            
-echo                                                  ^| ^|  ^| ^|           
-echo                                                  ^| ^|__^| ^| __ ___  __
-echo                                                  ^|  __  ^|^/ _` \ \^/ ^/
-echo                                                  ^| ^|  ^| ^| ^(_^| ^|^>  ^< 
-echo                                                  ^|_^|  ^|_^|\__,_^/_^/\_\
-echo                                        __  __       _ _   _ _______          _                     
-echo                                       ^|  \^/  ^|     ^| ^| ^| ^(_^)__   __^|        ^| ^|                    
-echo                                       ^| \  ^/ ^|_   _^| ^| ^|_ _   ^| ^| ___   ___ ^| ^|
-echo                                       ^| ^|\^/^| ^| ^| ^| ^| ^| __^| ^|  ^| ^|^/ _ \ ^/ _ \^| ^|
-echo                                       ^| ^|  ^| ^| ^|_^| ^| ^| ^|_^| ^|  ^| ^| ^(_^) ^| ^(_^) ^| ^|
-echo                                       ^|_^|  ^|_^|\__^,_^|_^|\__^|_^|  ^|_^|\___^/ \___^/^|_^|
-echo.
-echo.
+call xui/cui/titles/big
 Call Button  24 17 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
 Getinput /m %Press% /h 70
@@ -221,12 +206,7 @@ IF "!whitemode!" == "n" (
        color 72
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 5 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2 22 7 "Webdirectory finder" 22 8 "Connection Checker" 22 9 "Telnet Telehack" 22 10 "Google Terminal" 22 11 "Website Tracker" 22 12 "The Unblocker" 22 13 "Playit Agent" 22 14 "Meme Browser" 22 15 "DNS Refresh" 22 16 "Ip Checker" 22 17 "Music Bot" 22 18 "Pinger" 24 5 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -285,12 +265,7 @@ IF "!whitemode!" == "n" (
        color 76
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 17 "Internet Tools" 43 5 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2  41 7 "Discord Nitro Activator" 41 8 "Windows KeyFinder" 41 9 "Windows Activator" 41 10 "Password Changer" 41 11 "Office Activator" 41 12 "Blur Videos" 41 13 "SuperAdmin" 41 14 "Monochroma" 41 15 "Fork-Bomb" 41 16 "PC Fixer" 41 17 "Wureset" 41 18 "GMADF" 24 17 "Internet Tools" 43 5 "Windows Tools" 61 17 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press 
 (call )
@@ -347,12 +322,7 @@ IF "!whitemode!" == "n" (
        color 75
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 17 "Internet Tools" 43 17 "Windows Tools" 61 5 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2 52 7 "Remove Img Background" 57 8 "De-corrupt Image" 59 9 "De-corrupt PDF" 59 10 "Compress Image" 60 11 "Upscale Image" 61 12 "Compress PDF" 63 13 "Unlock PDF" 64 14 "Merge PDF" 24 17 "Internet Tools" 43 17 "Windows Tools" 61 5 "File Tools" 76 17 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -401,12 +371,7 @@ IF "!whitemode!" == "n" (
        color 70
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 17 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 5 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2  76 7 "Mouse-Swapper" 79 8 "DiskFiller" 79 9 "Shutdowner" 81 10 "Rickroll" 82 11 "Annoyer" 24 17 "Internet Tools" 43 17 "Windows Tools" 61 17 "File Tools" 76 5 "Trolls Tools" 24 20 "Info Tools" 39 20 "Aesthetic Tools" 60 20 "Games" 71 20 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -456,12 +421,7 @@ IF "!whitemode!" == "n" (
        color 74
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 26 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2 23 24 "Wifi Password Finder" 23 23 "Network Adapters" 23 23 "find ipv4/ipv6" 23 22 "What's my IP" 23 21 "Connections" 23 20 "Userinfo" 23 19 "Neofetch" 23 18 "Diskinfo"  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 26 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -514,12 +474,7 @@ IF "!whitemode!" == "n" (
        color 7D
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 26 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2 39 24 "Wobbly Terminal" 39 23 "Rainbow Text" 39 22 "Dancing Man" 39 21 "Parrot.live" 39 20 "ascii.live" 39 19 "Luca's LS" 39 18 "Retro PC" 39 17 "Matrix" 39 17 "Coffee" 39 16 "E." 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 26 "Aesthetic Tools" 60 16 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -574,12 +529,7 @@ IF "!whitemode!" == "n" (
        color 71
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 26 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2 53 24 "Guess the number" 63 23 "Tetris" 63 22 "Pacman" 65 21 "Pong" 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 26 "Games" 71 16 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -627,12 +577,7 @@ IF "!whitemode!" == "n" (
        color 79
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2 73 24 "Download Windows" 74 23 "Download Office" 78 22 "Osint Tools" 78 21 "KMS Servers" 79 20 "Fakeupdate" 79 19 "VirusTotal" 80 18 "MediaFire" 81 17 "imgur.gg" 82 16 "Yopmail" 83 15 "more.." 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
@@ -686,12 +631,7 @@ IF "!whitemode!" == "n" (
        color 79
    )
 )
-echo.
-echo                                  _  _            __  __      _ _   _ _____         _ 
-echo                                 ^| ^|^| ^|__ ___ __ ^|  \^/  ^|_  _^| ^| ^|_^(_^)_   _^|__  ___^| ^|
-echo                                 ^| __ ^/ _^` \ \ ^/ ^| ^|\^/^| ^| ^|^| ^| ^|  _^| ^| ^| ^|^/ _ \^/ _ \ ^|
-echo                                 ^|_^|^|_\__^,_^/_\_\ ^|_^|  ^|_^|\_^,_^|_^|\__^|_^| ^|_^|\___^/\___^/_^|
-echo.
+call xui/cui/titles/small
 Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 Call Button2  83 24 "back.." 83 23 "Jammin" 83 22 "Epieos" 83 21 "Ipinfo" 83 20 "Doxbin" 83 19 "gofile" 83 18 "rootz" 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
