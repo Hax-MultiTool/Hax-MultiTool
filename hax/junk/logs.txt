@@ -11,16 +11,16 @@ admin variable= n
 cleaning up files 
 starting renderer
 saving variable
-variable: cui
-target ui:  cui
+variable: oui
+target ui: oui
 [MAIN] loading settings..
 [MAIN] loading white mode..
 [MAIN] loading color palette..
 [MAIN] loading animations..
 [MAIN] loading startup music..
 [MAIN] loading sound effcts..
-[MAIN] loading colors.. 
-[MAIN] loading intro for click ui..
+[MAIN] resizing.. 
+[MAIN] loading intro for old ui..
 [MAIN] --------------------------------- 
 [MAIN] Variables Settings: 
 [MAIN] --------------------------------- 
@@ -30,9 +30,16 @@ target ui:  cui
 [MAIN] Music: "n" 
 [MAIN] Sound effects: "y" 
 [MAIN] --------------------------------- 
-[MAIN] loading startmenu
-[MAIN] loading internet tools
-[MAIN] loading startmenu
-[MAIN] loading trolls tools
-[MAIN] loading startmenu
-[MAIN] loading startmenu
+[MAIN] Now loading main startmenu 
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[toLowerFunction] input: "CHWEBSITE"
+[toLowerFunction] output: "CHWEBSITE"
+[toLowerFunction] input: "CHOICEMENU"
+[toLowerFunction] output: "CHOICEMENU"
+[MAIN] now loading InternetTools.. 
+[toLowerFunction] input: "INTERNETTOOL"
+[toLowerFunction] output: "INTERNETTOOL"
+[MAIN] now loading InternetTools.. 
+[toLowerFunction] input: "INTERNETTOOL"
+[toLowerFunction] output: "INTERNETTOOL"

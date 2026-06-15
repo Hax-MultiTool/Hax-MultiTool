@@ -132,26 +132,23 @@ IF "!whitemode!" == "n" (
 )
 @mode 56,28
 echo.
-echo                    Welcome  Back!
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+echo                     Welcome  Back^^!
+call xui/oui/contents/topbar
 echo            ================================
 echo            +          Tools Menu          +
 echo            ================================
 echo            +    [A] Internet Tools        +
 echo            +    [B] Windows Tools         +
-echo            +    [C] File Tools              +
+echo            +    [C] File Tools            +
 ECHO            +    [D] Trolls Tools          +
 echo            +    [E] Info Tools            +
 echo            +    [F] Aesthetics Tools      +
 echo            +    [G] Games                 +
-echo            +    [H] Registered Websites   +
+echo            +    [H] Featured Websites     +
 echo            +    [I] Settings              +
 echo            +    [J] Close                 +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo                   [A] [B] [C] [D] [E]
 echo                   [F] [G] [H] [I] [J]
@@ -174,6 +171,7 @@ goto startmenu
 rem --------------------------------------------------------------------------------------------------------------------------------
 :InternetTools
 echo [MAIN] now loading InternetTools.. >>junk/logs.txt
+
 cls
 IF "!whitemode!" == "n" (
    IF NOT "%forecolor%"=="none" (
@@ -188,13 +186,11 @@ IF "!whitemode!" == "n" (
        color 72
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +        Internet Tools        +
 echo            ================================
-echo            +   [A] Subdirectory Finder    +
+echo            +   [A] Webdirectory Finder    +
 echo            +   [B] Connection Checker     +
 echo            +   [C] Telnet Telehack        +
 echo            +   [D] Google Terminal        +
@@ -208,8 +204,7 @@ echo            +   [K] Music Bot              +
 echo            +   [L] Pinger                 +
 echo            +   [M] Back                   +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo              [A] [B] [C] [D] [E] [F] [G]
 echo                [H] [I] [J] [K] [L] [M]
@@ -248,28 +243,25 @@ IF "!whitemode!" == "n" (
        color 76
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +        Windows Tools         +
 echo            ================================
 echo            + [A] Discord Nitro Activator  +
 echo            + [B] Windows KeyFinder        +
-echo            + [C] Spotify Activator        +
-echo            + [D] Windows Activator        +
-echo            + [E] Password Changer         +
-echo            + [F] Office Activator         +
-echo            + [G] Blur Videos              +
-echo            + [H] SuperAdmin               +
-echo            + [I] Fork Bomb                +
+echo            + [C] Windows Activator        +
+echo            + [D] Password Changer         +
+echo            + [E] Office Activator         +
+echo            + [F] Blur Videos              +
+echo            + [G] SuperAdmin               +
+echo            + [H] Monochroma               +
+echo            + [I] Fork-Bomb                +
 echo            + [J] Pc Fixer                 +
 echo            + [K] WuReset                  +
 echo            + [L] GMADF                    +
 echo            + [M] Back                     +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo              [A] [B] [C] [D] [E] [F] [G]
 echo                [H] [I] [J] [K] [L] [M]
@@ -308,22 +300,24 @@ IF "!whitemode!" == "n" (
        color 75
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
-echo            +           File Tools           +
+echo            +          File Tools          +
 echo            ================================
-echo            +      [A] HaxiboMini          +
-echo            +      [B] Moderator           +
-echo            +      [C] Hax-GPT             +
-echo            +      [D] WinTTS              +
-echo            +      [E] Back                +
+echo            +  [A] Remove Img Background   +
+echo            +  [B] De-corrupt Image        +
+echo            +  [C] De-corrupt PDF          +
+echo            +  [D] Compress Image          +
+echo            +  [E] Upscale Image           +
+echo            +  [F] Compress PDF            +
+echo            +  [G] Unlock PDF              +
+echo            +  [H] Merge PDF               +
+echo            +  [I] Back                    +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo                  [A] [B] [C] [D] [E]
+echo                    [F] [G] [H] [I]
 echo.
 ping localhost -n 2 >nul
 set AITOOL=z
@@ -351,9 +345,7 @@ IF "!whitemode!" == "n" (
        color 70
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +         Trolls Tools         +
 echo            ================================
@@ -364,8 +356,7 @@ echo            +      [D] Rickroll            +
 echo            +      [E] Annoyer             +
 echo            +      [F] Back                +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo                 [A] [B] [C] [D] [E] [F]
 echo.
@@ -396,9 +387,7 @@ IF "!whitemode!" == "n" (
        color 74
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +          Info Tools          +
 echo            ================================
@@ -412,8 +401,7 @@ echo            +   [G] Neofetch               +
 echo            +   [H] Diskinfo               +
 echo            +   [I] Back                   +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo                  [A] [B] [C] [D] [E] 
 echo                    [F] [G] [H] [I]
@@ -448,9 +436,7 @@ IF "!whitemode!" == "n" (
        color 7D
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +       Aesthetic Tools        +
 echo            ================================
@@ -466,8 +452,7 @@ echo            +      [I] Coffee              +
 echo            +      [J] E.                  +
 echo            +      [K] Back                +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo                [A] [B] [C] [D] [E] [F]
 echo                  [G] [H] [I] [J] [K]
@@ -504,23 +489,19 @@ IF "!whitemode!" == "n" (
        color 71
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +           Hax Games          +
 echo            ================================
 echo            +     [A] Guess the Number     +
-echo            +     [B] Haxed Client         +
-echo            +     [C] Tetris               +
-echo            +     [D] Pacman               +
-echo            +     [E] Pong                 +
-echo            +     [F] Back                 +
+echo            +     [B] Tetris               +
+echo            +     [C] Pacman               +
+echo            +     [D] Pong                 +
+echo            +     [E] Back                 +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
-echo                 [A] [B] [C] [D] [E] [F]
+echo                  [A] [B] [C] [D] [E]
 echo.
 ping localhost -n 2 >nul
 set GAMETOOL=z
@@ -549,30 +530,33 @@ IF "!whitemode!" == "n" (
        color 73
    )
 )
-echo            ________________________________
-echo           /_______________  _______________\
-echo                           \/
+call xui/oui/contents/topbar
 echo            ================================
 echo            +       Registered Sites       +
 echo            ================================
-echo            +       [A] VirusTotal         +
-echo            +       [B] Kms Servers        +
-echo            +       [C] IpInfo             +
-echo            +       [D] Epieos             +
-echo            +       [E] Yopmail            +
-echo            +       [F] Mediafire          +
-echo            +       [G] Download Win10     +
-echo            +       [H] Download Office    +
-echo            +       [I] Fakeupdate         +
-echo            +       [J] Jammin             +
-echo            +       [K] Doxbin             +
-echo            +       [L] Back               +
+echo            +     [A] Download Windows     +
+echo            +     [B] Download Office      +
+echo            +     [C] Osint Tools          +
+echo            +     [D] Kms Servers          +
+echo            +     [E] VirusTotal           +
+echo            +     [F] Fakeupdate           +
+echo            +     [G] MediaFire            +
+echo            +     [H] Imgur.gg             +
+echo            +     [I] YopMail              +
+echo            +     [J] Jasmin               +
+echo            +     [K] EpieOS               +
+echo            +     [L] Doxbin               +
+echo            +     [M] IpInfo               +
+echo            +     [N] Gofile               +
+echo            +     [O] Rootz                +
+echo            +     [P] FMHY                 +
+echo            +     [Q] Back                 +
 echo            ================================
-echo            _______________/\_______________
-echo           \________________________________/
+call xui/oui/contents/botbar
 echo.
 echo                [A] [B] [C] [D] [E] [F]
 echo                [G] [H] [I] [J] [K] [L]
+echo                  [M] [N] [O] [P] [Q]
 echo.
 ping localhost -n 2 >nul
 set CHWEBSITE=z
