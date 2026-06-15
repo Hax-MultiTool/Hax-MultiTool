@@ -11,3 +11,5 @@ uhh the cli help i thought about it make it an interactive-seperate-window kind 
 
 add audio selection
 add auto update in settings
+
+Optimize text rendering in tool menus by function calling the Hax MultiTool upper text/Big text
