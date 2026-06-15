@@ -633,7 +633,7 @@ IF "!whitemode!" == "n" (
 )
 call xui/cui/titles/small
 Call Button  24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
-Call Button2  83 24 "back.." 83 23 "Jammin" 83 22 "Epieos" 83 21 "Ipinfo" 83 20 "Doxbin" 83 19 "gofile" 83 18 "rootz" 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
+Call Button2  83 24 "back.." 83 23 "Jammin" 83 22 "Epieos" 83 21 "Ipinfo" 83 20 "Doxbin" 83 19 "gofile" 83 18 "rootz" 83 17 "FMHY" 24 13 "Internet Tools" 43 13 "Windows Tools" 61 13 "File Tools" 76 13 "Trolls Tools" 24 16 "Info Tools" 39 16 "Aesthetic Tools" 60 16 "Games" 71 26 "Featured Websites" 105 0 "Settings" 1 0 "Hax v3" 1 27 "Help" 112 27 "+" # Press
 (call )
 Getinput /m %Press% /h 70
 
@@ -644,18 +644,19 @@ if %errorlevel%==4 ( explorer "https://ipinfo.io/")
 if %errorlevel%==5 ( explorer "https://doxbin.com")
 if %errorlevel%==6 ( explorer "https://gofile.io/" )
 if %errorlevel%==7 ( explorer "https://rootz.so/" )
-if %errorlevel%==8 (goto internetTools)
-if %errorlevel%==9 (goto WindowsTools)
-if %errorlevel%==10 (goto FileTools)
-if %errorlevel%==11 (goto TrollsTools)
-if %errorlevel%==12 (goto InfoTools)
-if %errorlevel%==13 (goto AestheticTools)
-if %errorlevel%==14 (goto GAMES)
-if %errorlevel%==15 (goto Websites)
-if %errorlevel%==16 (goto SETTS)
-if %errorlevel%==17 (goto startmenu)
-if %errorlevel%==18 ( goto help )
-if %errorlevel%==19 (goto fullscreen)
+if %errorlevel%==8 ( explorer "https://fmhy.net/" )
+if %errorlevel%==9 (goto internetTools)
+if %errorlevel%==10 (goto WindowsTools)
+if %errorlevel%==11 (goto FileTools)
+if %errorlevel%==12 (goto TrollsTools)
+if %errorlevel%==13 (goto InfoTools)
+if %errorlevel%==14 (goto AestheticTools)
+if %errorlevel%==15 (goto GAMES)
+if %errorlevel%==16 (goto Websites)
+if %errorlevel%==17 (goto SETTS)
+if %errorlevel%==18 (goto startmenu)
+if %errorlevel%==19 ( goto help )
+if %errorlevel%==20 (goto fullscreen)
 goto Websites2
 rem ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :fullscreen
